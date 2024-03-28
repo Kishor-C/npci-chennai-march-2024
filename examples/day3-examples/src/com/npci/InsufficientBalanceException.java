@@ -1,5 +1,6 @@
 package com.npci;
 
+@SuppressWarnings("serial")
 public class InsufficientBalanceException extends Exception {
 
 	public InsufficientBalanceException() {

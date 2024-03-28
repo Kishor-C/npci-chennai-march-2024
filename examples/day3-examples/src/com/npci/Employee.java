@@ -12,9 +12,7 @@ public class Employee {
 	}
 	public Employee() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
-	
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + "]";
@@ -37,5 +35,4 @@ public class Employee {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-	
 }
